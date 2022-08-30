@@ -3,12 +3,14 @@ public class Main {
         System.out.println("Hello world!");
 //Задание 3
         int[] numbers = {1, 2, 3};
-        for (int i = 2; i < numbers.length && i >= numbers[0] || i >= numbers[0] - 1; i--) {
+        for (int i = numbers.length-1; i<=0; i--) {
             System.out.print(numbers[i]);
             if (1 <= i && i < numbers.length) {
                 System.out.print(", ");
             }
         }
+        System.out.println();
+
         //Задание 1
         int[] arrays = new int[3];
         arrays[0] = 1;
